@@ -1,0 +1,77 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0.5px 2px 4px gray;
+}
+.navbar .navbar-logo {
+  padding-left: 10px;
+  color: #8ea5e9;
+}
+.navbar span {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.navbar-signUp {
+  margin-right: 10px;
+}
+.navbar-signUp span {
+  font-size: 14px;
+  padding: 7px;
+  background-color: royalblue;
+  border-radius: 5px;
+  color: #eeeeee;
+}
+
+.input {
+  margin: 50px 0px 50px 0px;
+}
+
+.section h4 {
+  color: #f6f6f6;
+}
+.section .card-group {
+  width: 70%;
+  float: left;
+}
+.section .card {
+  margin: 0px 20px 20px 0px;
+}
+.section .list-group-item {
+  background-color: #e0e0e0;
+}
+.section .card-title {
+  padding: 10px;
+}
+.section .card-text {
+  padding: 10px;
+}
+
+.aside {
+  width: 30%;
+  float: right;
+}
+.aside .card-img-top {
+  margin: 20px auto 0px auto;
+  width: 90%;
+  height: 170px;
+  background-color: #4b4b4b;
+  border-radius: 5px;
+  text-align: center;
+  color: #eeeeee;
+  line-height: 150px;
+  font-size: 14px;
+}
+.aside .card-text {
+  text-align: end;
+}/*# sourceMappingURL=index.css.map */

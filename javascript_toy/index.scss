@@ -1,0 +1,83 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  width: 90%;
+  margin: auto;
+}
+
+// 상단 메뉴(navbar) 부분
+.navbar {
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0.5px 2px 4px gray;
+  .navbar-logo {
+    padding-left: 10px;
+    color: rgb(142, 165, 233);
+  }
+  span {
+    font-size: 20px;
+    padding-left: 5px;
+  }
+}
+
+.navbar-signUp {
+  margin-right: 10px;
+  span {
+    font-size: 14px;
+    padding: 7px;
+    background-color: royalblue;
+    border-radius: 5px;
+    color: #eeeeee;
+  }
+}
+
+// 검색 창(input) 부분
+.input {
+  margin: 50px 0px 50px 0px;
+}
+
+// 상품메뉴(section) 부분
+.section {
+  h4 {
+    color: #f6f6f6;
+  }
+  .card-group {
+    width: 70%;
+    float: left;
+  }
+  .card {
+    margin: 0px 20px 20px 0px;
+  }
+  .list-group-item {
+    background-color: rgb(224, 224, 224);
+  }
+  .card-title {
+    padding: 10px;
+  }
+  .card-text {
+    padding: 10px;
+  }
+}
+
+// 장바구니(aside) 부분
+.aside {
+  width: 30%;
+  float: right;
+  .card-img-top {
+    margin: 20px auto 0px auto;
+    width: 90%;
+    height: 170px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    text-align: center;
+    color: #eeeeee;
+    line-height: 150px;
+    font-size: 14px;
+  }
+  .card-text {
+    text-align: end;
+  }
+}
